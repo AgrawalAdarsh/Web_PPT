@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Games Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video id="video-background" autoplay muted loop>
+        <source src="background.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <header>
+        <h1>Welcome to the PC Games Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#popular-games">Popular Games</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="popular-games">
+            <h2>Popular PC Games</h2>
+    
+            <article>
+                <h3>1. The Witcher 3: Wild Hunt</h3>
+                <p>An action role-playing game set in a visually stunning fantasy universe full of meaningful choices and
+                    impactful consequences.</p>
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg" alt="The Witcher 3"
+                        height="200px">
+                    <figcaption>The Witcher 3: Wild Hunt</figcaption>
+                </figure>
+            </article>
+    
+            <article>
+                <h3>2. Minecraft</h3>
+                <p>A sandbox game that lets you create, explore, and survive in a blocky, pixelated world with endless
+                    possibilities.</p>
+                <figure>
+                    <img src="https://image.api.playstation.com/vulcan/ap/rnd/202407/0401/670c294ded3baf4fa11068db2ec6758c63f7daeb266a35a1.png"
+                        alt="Minecraft" height="200px">
+                    <figcaption>Minecraft</figcaption>
+                </figure>
+            </article>
+    
+            <article>
+                <h3>3. Cyberpunk 2077</h3>
+                <p>A futuristic open-world RPG where you explore a sprawling city as a cybernetically enhanced mercenary.
+                </p>
+                <figure>
+                    <img src="https://images.gog-statics.com/c75e674590b8947542c809924df30bbef2190341163dd08668e243c266be70c5_product_card_v2_mobile_slider_639.jpg"
+                        alt="Cyberpunk 2077" height="200px">
+                    <figcaption>Cyberpunk 2077</figcaption>
+                </figure>
+            </article>
+    
+            <article>
+                <h3>4. Red Dead Redemption 2</h3>
+                <p>Red Dead Redemption 2 (RDR2) is an open-world action-adventure game developed by Rockstar Games.</p>
+                <figure>
+                    <img src="https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA08519_00/12/i_3da1cf7c41dc7652f9b639e1680d96436773658668c7dc3930c441291095713b/i/icon0.png"
+                        alt="Red Dead Redemption 2" height="200px">
+                    <figcaption>RDR 2</figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <section id="gallery">
+            <h2>Game Trailers</h2>
+            <video controls poster="thumbnail.jpg">
+                <source src="https://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        
+        <section id="soundtrack">
+            <h2>Game Soundtrack</h2>
+            <br>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section id="game-list">
+            <h2>Top-Rated PC Games</h2>
+            <ul>
+                <li>The Witcher 3: Wild Hunt</li>
+                <li>Minecraft</li>
+                <li>Cyberpunk 2077</li>
+                <li>Red Dead Redemption 2</li>
+            </ul>
+        </section>
+
+        <section id="game-table">
+            <h2>Game Comparison</h2>
+            <table>
+                <tr>
+                    <th>Game</th>
+                    <th>Genre</th>
+                    <th>Release Year</th>
+                </tr>
+                <tr>
+                    <td>The Witcher 3</td>
+                    <td>RPG</td>
+                    <td>2015</td>
+                </tr>
+                <tr>
+                    <td>Minecraft</td>
+                    <td>Sandbox</td>
+                    <td>2011</td>
+                </tr>
+                <tr>
+                    <td>Cyberpunk 2077</td>
+                    <td>Action RPG</td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td>Red Dead Redemption 2</td>
+                    <td>Adventure</td>
+                    <td>2018</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are passionate about PC gaming and aim to bring you the latest news, reviews, and updates about your favorite games.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 PC Games Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
